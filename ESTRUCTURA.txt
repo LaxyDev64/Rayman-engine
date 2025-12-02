@@ -1,0 +1,212 @@
+ESTRUCTURA DEL PROYECTO - RAYMAN ENGINE
+=======================================
+
+RaymanEngine/                          # Raíz del proyecto
+│
+├── main.py                            # Punto de entrada principal
+├── test_engine.py                     # Pruebas unitarias
+├── EJEMPLOS.py                        # Ejemplos de uso
+├── requirements.txt                   # Dependencias
+├── README.md                          # Documentación principal
+├── TECNICO.md                         # Documentación técnica
+├── run.bat                            # Script para Windows
+├── run.sh                             # Script para Linux/Mac
+│
+├── src/                               # Código fuente
+│   ├── __init__.py
+│   ├── config.py                      # Configuración global
+│   ├── engine.py                      # Motor principal del juego
+│   │
+│   ├── entities/                      # Entidades del juego
+│   │   ├── __init__.py
+│   │   ├── entity.py                  # Clase base de entidades
+│   │   ├── player.py                  # Clase del jugador (Rayman)
+│   │   └── world.py                   # Plataformas, obstáculos, coleccionables
+│   │
+│   ├── scenes/                        # Escenas del juego
+│   │   ├── __init__.py
+│   │   ├── scene.py                   # Clase base de escenas
+│   │   └── level.py                   # Escena de nivel
+│   │
+│   └── utils/                         # Utilidades y sistemas
+│       ├── __init__.py
+│       ├── collision.py               # Sistema de colisiones
+│       └── animation.py               # Sistema de animaciones
+│
+└── assets/                            # Recursos del juego
+    ├── sprites/                       # Sprites y gráficos
+    │   ├── player/                    # Sprites de Rayman
+    │   ├── enemies/                   # Sprites de enemigos
+    │   └── tiles/                     # Tiles de plataformas
+    ├── sounds/                        # Efectos de sonido
+    └── music/                         # Música de fondo
+
+
+COMPONENTES CLAVE
+=================
+
+1. MOTOR PRINCIPAL (engine.py)
+   - GameEngine: Gestiona el bucle principal, escenas y control del juego
+
+2. ENTIDADES (entities/)
+   - Entity: Clase base abstracta para todas las entidades
+   - Player: Jugador controlable (Rayman)
+   - Platform: Plataformas estáticas
+   - Wall: Paredes de colisión
+   - Spike: Púas letales
+   - Collectible: Objetos coleccionables
+
+3. ESCENAS (scenes/)
+   - Scene: Clase base abstracta para escenas
+   - LevelScene: Escena de nivel con mecánicas de juego
+
+4. SISTEMAS (utils/)
+   - CollisionManager: Gestiona colisiones AABB
+   - Animation: Maneja animaciones de sprites
+   - AnimationController: Controla múltiples animaciones
+
+5. CONFIGURACIÓN (config.py)
+   - Parámetros de pantalla
+   - Constantes de física
+   - Configuración de controles
+   - Colores y tamaños
+
+
+FLUJO DE EJECUCIÓN
+==================
+
+1. main.py (inicio)
+   ↓
+2. Crear GameEngine
+   ↓
+3. Crear y registrar escenas (LevelScene)
+   ↓
+4. Establecer escena inicial
+   ↓
+5. GameEngine.run() - Bucle principal:
+   ├─ handle_events() → Escena maneja input
+   ├─ update(dt) → Actualizar entidades
+   └─ draw() → Renderizar escena
+   ↓
+6. pygame.quit() cuando el usuario cierre el juego
+
+
+CÓMO EXTENDER
+==============
+
+CREAR NUEVO ENEMIGO:
+   1. Heredar de Entity
+   2. Implementar update() y draw()
+   3. Añadir a la escena en LevelScene.setup()
+
+CREAR NUEVO NIVEL:
+   1. Heredar de Scene
+   2. Implementar setup(), handle_input(), update(), draw()
+   3. Registrar en GameEngine
+   4. Cambiar escena con game.set_scene()
+
+CREAR NUEVO ITEM:
+   1. Heredar de Entity
+   2. Crear lógica de colisión
+   3. Manejar en Scene.update()
+
+
+CARACTERÍSTICAS IMPLEMENTADAS
+=============================
+
+✓ Sistema de entidades modular
+✓ Sistema de escenas
+✓ Física de plataformas
+✓ Colisiones AABB
+✓ Jugador controlable (movimiento, salto)
+✓ Plataformas estáticas
+✓ Paredes de colisión
+✓ Púas letales
+✓ Objetos coleccionables
+✓ Sistema de puntuación
+✓ Detección de caída
+✓ Sistema de animaciones
+✓ Manejo de entrada flexible
+
+
+PRÓXIMAS CARACTERÍSTICAS
+=========================
+
+□ Enemigos con IA
+□ Animaciones de sprites
+□ Cámara que sigue al jugador
+□ Sistema de vidas
+□ Menú de inicio
+□ Pantalla de Game Over
+□ Pausa
+□ Música y sonidos
+□ Checkpoint/guardado
+□ Niveles procedurales
+□ Boss fights
+□ Efectos visuales/partículas
+□ Zoom de cámara
+□ Scroll de fondo
+
+
+REQUISITOS MÍNIMOS
+==================
+
+- Python 3.8+
+- pygame 2.5.2
+- numpy 1.24.3
+
+
+INSTRUCCIONES DE USO
+====================
+
+WINDOWS:
+   1. Doble click en run.bat
+   o
+   2. pip install -r requirements.txt
+      python main.py
+
+LINUX/MAC:
+   1. chmod +x run.sh && ./run.sh
+   o
+   2. pip3 install -r requirements.txt
+      python3 main.py
+
+
+CONTROLES DE JUEGO
+==================
+
+Teclas                  Acción
+─────────────────────────────────
+← / →  o  A / D        Mover izquierda/derecha
+ESPACIO / W             Saltar
+ESC                     Salir
+
+
+NOTAS IMPORTANTES
+=================
+
+- El sistema de colisiones es AABB (rectángulos)
+- Las coordenadas Y aumentan hacia abajo
+- Las entidades tienen prioridad de actualización
+- Las colisiones se resuelven en update()
+- El jugador puede hacer doble salto
+- Las púas resetean al jugador
+- Los coleccionables desaparecen al tocarlos
+
+
+INFORMACIÓN DE VERSIÓN
+======================
+
+Version: 0.1.0
+Última actualización: Noviembre 2025
+Estado: En desarrollo
+Licencia: Fangame educativo
+
+
+CONTACTO Y SOPORTE
+==================
+
+Para reportar bugs o sugerencias, revisa los archivos de documentación.
+
+---
+Creado con ❤️ para fans de Rayman

@@ -1,0 +1,650 @@
+[
+    {
+        "id": 0,
+        "file": "rayman_sprite_0.png",
+        "x": 179,
+        "y": 7,
+        "width": 143,
+        "height": 68
+    },
+    {
+        "id": 1,
+        "file": "rayman_sprite_1.png",
+        "x": 744,
+        "y": 10,
+        "width": 236,
+        "height": 57
+    },
+    {
+        "id": 2,
+        "file": "rayman_sprite_2.png",
+        "x": 4,
+        "y": 15,
+        "width": 125,
+        "height": 146
+    },
+    {
+        "id": 3,
+        "file": "rayman_sprite_3.png",
+        "x": 353,
+        "y": 16,
+        "width": 62,
+        "height": 84
+    },
+    {
+        "id": 4,
+        "file": "rayman_sprite_4.png",
+        "x": 605,
+        "y": 17,
+        "width": 68,
+        "height": 80
+    },
+    {
+        "id": 5,
+        "file": "rayman_sprite_5.png",
+        "x": 458,
+        "y": 24,
+        "width": 31,
+        "height": 117
+    },
+    {
+        "id": 6,
+        "file": "rayman_sprite_6.png",
+        "x": 516,
+        "y": 29,
+        "width": 68,
+        "height": 80
+    },
+    {
+        "id": 7,
+        "file": "rayman_sprite_7.png",
+        "x": 350,
+        "y": 65,
+        "width": 2,
+        "height": 2
+    },
+    {
+        "id": 8,
+        "file": "rayman_sprite_8.png",
+        "x": 218,
+        "y": 77,
+        "width": 192,
+        "height": 144
+    },
+    {
+        "id": 9,
+        "file": "rayman_sprite_9.png",
+        "x": 739,
+        "y": 80,
+        "width": 246,
+        "height": 60
+    },
+    {
+        "id": 10,
+        "file": "rayman_sprite_10.png",
+        "x": 812,
+        "y": 117,
+        "width": 19,
+        "height": 4
+    },
+    {
+        "id": 11,
+        "file": "rayman_sprite_11.png",
+        "x": 87,
+        "y": 124,
+        "width": 122,
+        "height": 100
+    },
+    {
+        "id": 12,
+        "file": "rayman_sprite_12.png",
+        "x": 620,
+        "y": 124,
+        "width": 64,
+        "height": 79
+    },
+    {
+        "id": 13,
+        "file": "rayman_sprite_13.png",
+        "x": 192,
+        "y": 127,
+        "width": 2,
+        "height": 2
+    },
+    {
+        "id": 14,
+        "file": "rayman_sprite_14.png",
+        "x": 522,
+        "y": 132,
+        "width": 63,
+        "height": 77
+    },
+    {
+        "id": 15,
+        "file": "rayman_sprite_15.png",
+        "x": 741,
+        "y": 152,
+        "width": 255,
+        "height": 63
+    },
+    {
+        "id": 16,
+        "file": "rayman_sprite_16.png",
+        "x": 55,
+        "y": 161,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": 17,
+        "file": "rayman_sprite_17.png",
+        "x": 882,
+        "y": 164,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": 18,
+        "file": "rayman_sprite_18.png",
+        "x": 9,
+        "y": 189,
+        "width": 66,
+        "height": 52
+    },
+    {
+        "id": 19,
+        "file": "rayman_sprite_19.png",
+        "x": 355,
+        "y": 203,
+        "width": 131,
+        "height": 184
+    },
+    {
+        "id": 20,
+        "file": "rayman_sprite_20.png",
+        "x": 822,
+        "y": 209,
+        "width": 180,
+        "height": 138
+    },
+    {
+        "id": 21,
+        "file": "rayman_sprite_21.png",
+        "x": 530,
+        "y": 218,
+        "width": 173,
+        "height": 104
+    },
+    {
+        "id": 22,
+        "file": "rayman_sprite_22.png",
+        "x": 64,
+        "y": 234,
+        "width": 136,
+        "height": 105
+    },
+    {
+        "id": 23,
+        "file": "rayman_sprite_23.png",
+        "x": 488,
+        "y": 248,
+        "width": 5,
+        "height": 4
+    },
+    {
+        "id": 24,
+        "file": "rayman_sprite_24.png",
+        "x": 848,
+        "y": 253,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": 25,
+        "file": "rayman_sprite_25.png",
+        "x": 215,
+        "y": 255,
+        "width": 112,
+        "height": 126
+    },
+    {
+        "id": 26,
+        "file": "rayman_sprite_26.png",
+        "x": 862,
+        "y": 264,
+        "width": 4,
+        "height": 3
+    },
+    {
+        "id": 27,
+        "file": "rayman_sprite_27.png",
+        "x": 744,
+        "y": 280,
+        "width": 67,
+        "height": 87
+    },
+    {
+        "id": 28,
+        "file": "rayman_sprite_28.png",
+        "x": 21,
+        "y": 299,
+        "width": 85,
+        "height": 84
+    },
+    {
+        "id": 29,
+        "file": "rayman_sprite_29.png",
+        "x": 221,
+        "y": 302,
+        "width": 2,
+        "height": 2
+    },
+    {
+        "id": 30,
+        "file": "rayman_sprite_30.png",
+        "x": 525,
+        "y": 302,
+        "width": 3,
+        "height": 5
+    },
+    {
+        "id": 31,
+        "file": "rayman_sprite_31.png",
+        "x": 217,
+        "y": 316,
+        "width": 2,
+        "height": 7
+    },
+    {
+        "id": 32,
+        "file": "rayman_sprite_32.png",
+        "x": 486,
+        "y": 329,
+        "width": 2,
+        "height": 2
+    },
+    {
+        "id": 33,
+        "file": "rayman_sprite_33.png",
+        "x": 91,
+        "y": 354,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": 34,
+        "file": "rayman_sprite_34.png",
+        "x": 92,
+        "y": 355,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": 35,
+        "file": "rayman_sprite_35.png",
+        "x": 96,
+        "y": 355,
+        "width": 1,
+        "height": 2
+    },
+    {
+        "id": 36,
+        "file": "rayman_sprite_36.png",
+        "x": 831,
+        "y": 355,
+        "width": 179,
+        "height": 138
+    },
+    {
+        "id": 37,
+        "file": "rayman_sprite_37.png",
+        "x": 492,
+        "y": 390,
+        "width": 235,
+        "height": 88
+    },
+    {
+        "id": 38,
+        "file": "rayman_sprite_38.png",
+        "x": 249,
+        "y": 391,
+        "width": 180,
+        "height": 88
+    },
+    {
+        "id": 39,
+        "file": "rayman_sprite_39.png",
+        "x": 0,
+        "y": 393,
+        "width": 189,
+        "height": 94
+    },
+    {
+        "id": 40,
+        "file": "rayman_sprite_40.png",
+        "x": 872,
+        "y": 411,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": 41,
+        "file": "rayman_sprite_41.png",
+        "x": 551,
+        "y": 486,
+        "width": 2,
+        "height": 2
+    },
+    {
+        "id": 42,
+        "file": "rayman_sprite_42.png",
+        "x": 718,
+        "y": 486,
+        "width": 232,
+        "height": 77
+    },
+    {
+        "id": 43,
+        "file": "rayman_sprite_43.png",
+        "x": 476,
+        "y": 487,
+        "width": 116,
+        "height": 107
+    },
+    {
+        "id": 44,
+        "file": "rayman_sprite_44.png",
+        "x": 499,
+        "y": 503,
+        "width": 2,
+        "height": 3
+    },
+    {
+        "id": 45,
+        "file": "rayman_sprite_45.png",
+        "x": 89,
+        "y": 513,
+        "width": 120,
+        "height": 125
+    },
+    {
+        "id": 46,
+        "file": "rayman_sprite_46.png",
+        "x": 362,
+        "y": 514,
+        "width": 81,
+        "height": 71
+    },
+    {
+        "id": 47,
+        "file": "rayman_sprite_47.png",
+        "x": 248,
+        "y": 517,
+        "width": 95,
+        "height": 123
+    },
+    {
+        "id": 48,
+        "file": "rayman_sprite_48.png",
+        "x": 624,
+        "y": 519,
+        "width": 67,
+        "height": 70
+    },
+    {
+        "id": 49,
+        "file": "rayman_sprite_49.png",
+        "x": 14,
+        "y": 521,
+        "width": 47,
+        "height": 89
+    },
+    {
+        "id": 50,
+        "file": "rayman_sprite_50.png",
+        "x": 929,
+        "y": 555,
+        "width": 67,
+        "height": 83
+    },
+    {
+        "id": 51,
+        "file": "rayman_sprite_51.png",
+        "x": 475,
+        "y": 558,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": 52,
+        "file": "rayman_sprite_52.png",
+        "x": 491,
+        "y": 584,
+        "width": 3,
+        "height": 3
+    },
+    {
+        "id": 53,
+        "file": "rayman_sprite_53.png",
+        "x": 561,
+        "y": 607,
+        "width": 145,
+        "height": 92
+    },
+    {
+        "id": 54,
+        "file": "rayman_sprite_54.png",
+        "x": 804,
+        "y": 619,
+        "width": 193,
+        "height": 145
+    },
+    {
+        "id": 55,
+        "file": "rayman_sprite_55.png",
+        "x": 727,
+        "y": 621,
+        "width": 71,
+        "height": 126
+    },
+    {
+        "id": 56,
+        "file": "rayman_sprite_56.png",
+        "x": 356,
+        "y": 622,
+        "width": 202,
+        "height": 180
+    },
+    {
+        "id": 57,
+        "file": "rayman_sprite_57.png",
+        "x": 7,
+        "y": 670,
+        "width": 168,
+        "height": 129
+    },
+    {
+        "id": 58,
+        "file": "rayman_sprite_58.png",
+        "x": 768,
+        "y": 672,
+        "width": 2,
+        "height": 3
+    },
+    {
+        "id": 59,
+        "file": "rayman_sprite_59.png",
+        "x": 193,
+        "y": 679,
+        "width": 147,
+        "height": 109
+    },
+    {
+        "id": 60,
+        "file": "rayman_sprite_60.png",
+        "x": 747,
+        "y": 742,
+        "width": 2,
+        "height": 2
+    },
+    {
+        "id": 61,
+        "file": "rayman_sprite_61.png",
+        "x": 524,
+        "y": 744,
+        "width": 126,
+        "height": 160
+    },
+    {
+        "id": 62,
+        "file": "rayman_sprite_62.png",
+        "x": 670,
+        "y": 749,
+        "width": 5,
+        "height": 4
+    },
+    {
+        "id": 63,
+        "file": "rayman_sprite_63.png",
+        "x": 662,
+        "y": 750,
+        "width": 42,
+        "height": 109
+    },
+    {
+        "id": 64,
+        "file": "rayman_sprite_64.png",
+        "x": 651,
+        "y": 757,
+        "width": 2,
+        "height": 3
+    },
+    {
+        "id": 65,
+        "file": "rayman_sprite_65.png",
+        "x": 659,
+        "y": 757,
+        "width": 4,
+        "height": 14
+    },
+    {
+        "id": 66,
+        "file": "rayman_sprite_66.png",
+        "x": 732,
+        "y": 761,
+        "width": 70,
+        "height": 80
+    },
+    {
+        "id": 67,
+        "file": "rayman_sprite_67.png",
+        "x": 405,
+        "y": 770,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": 68,
+        "file": "rayman_sprite_68.png",
+        "x": 97,
+        "y": 787,
+        "width": 118,
+        "height": 122
+    },
+    {
+        "id": 69,
+        "file": "rayman_sprite_69.png",
+        "x": 376,
+        "y": 804,
+        "width": 123,
+        "height": 161
+    },
+    {
+        "id": 70,
+        "file": "rayman_sprite_70.png",
+        "x": 231,
+        "y": 821,
+        "width": 135,
+        "height": 90
+    },
+    {
+        "id": 71,
+        "file": "rayman_sprite_71.png",
+        "x": 918,
+        "y": 822,
+        "width": 96,
+        "height": 158
+    },
+    {
+        "id": 72,
+        "file": "rayman_sprite_72.png",
+        "x": 834,
+        "y": 831,
+        "width": 70,
+        "height": 144
+    },
+    {
+        "id": 73,
+        "file": "rayman_sprite_73.png",
+        "x": 681,
+        "y": 849,
+        "width": 122,
+        "height": 143
+    },
+    {
+        "id": 74,
+        "file": "rayman_sprite_74.png",
+        "x": 617,
+        "y": 860,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": 75,
+        "file": "rayman_sprite_75.png",
+        "x": 540,
+        "y": 903,
+        "width": 2,
+        "height": 2
+    },
+    {
+        "id": 76,
+        "file": "rayman_sprite_76.png",
+        "x": 37,
+        "y": 916,
+        "width": 147,
+        "height": 88
+    },
+    {
+        "id": 77,
+        "file": "rayman_sprite_77.png",
+        "x": 200,
+        "y": 917,
+        "width": 156,
+        "height": 88
+    },
+    {
+        "id": 78,
+        "file": "rayman_sprite_78.png",
+        "x": 510,
+        "y": 927,
+        "width": 150,
+        "height": 87
+    },
+    {
+        "id": 79,
+        "file": "rayman_sprite_79.png",
+        "x": 758,
+        "y": 987,
+        "width": 228,
+        "height": 34
+    },
+    {
+        "id": 80,
+        "file": "rayman_sprite_80.png",
+        "x": 189,
+        "y": 996,
+        "width": 6,
+        "height": 3
+    }
+]

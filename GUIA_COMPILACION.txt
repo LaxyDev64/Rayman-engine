@@ -1,0 +1,146 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                                                                            ║
+║               🎮 RAYMAN ENGINE - GUIA DE COMPILACION v0.2.0               ║
+║                                                                            ║
+║                       Convierte el juego en ejecutable                    ║
+║                                                                            ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+
+PROBLEMA ACTUAL:
+════════════════════════════════════════════════════════════════════════════
+
+Python embebido (en carpeta `python/`) tiene limitaciones con pip y no puede
+instalar paquetes como pygame fácilmente.
+
+Para compilar a ejecutable único necesitamos pygame instalado.
+
+
+SOLUCIONES (en orden):
+════════════════════════════════════════════════════════════════════════════
+
+### OPCION 1: Lanzador Simple (SIN compilar a .exe)
+─────────────────────────────────────────────────────
+
+✓ **MÁS FÁCIL** - No requiere compilación
+
+Archivos creados para ti:
+  • dist/RaymanEngine.bat       ← Ejecuta el juego
+  • RaymanEngine.bat            ← También ejecuta el juego  
+  • RaymanEngine.vbs            ← Lanzador VB Script
+
+**Para jugar ahora:**
+  1. Doble click en: dist\RaymanEngine.bat
+     o
+  2. Doble click en: RaymanEngine.vbs
+
+El juego se abre en una ventana usando Python embebido.
+
+
+### OPCION 2: Instalar Python Global y Compilar (RECOMENDADO para .exe)
+──────────────────────────────────────────────────────────────────────────
+
+✓ Genera **verdadero ejecutable** (.exe)
+✓ Portable sin dependencias
+✓ Funciona en cualquier PC sin Python instalado
+
+**Pasos:**
+
+1. Instala Python desde: https://www.python.org/downloads/
+   
+   IMPORTANTE - Durante instalación:
+   ☑ Marca: "Add Python to PATH"
+   ☑ Marca: "Install pip"
+
+2. Reinicia Windows completamente
+
+3. Abre PowerShell como administrador y ejecuta:
+
+   ```powershell
+   cd "c:\Users\hecto\OneDrive\Desktop\rayman engine\RaymanEngine"
+   
+   # Instala dependencias
+   pip install pygame pyinstaller
+   
+   # Compila a ejecutable
+   python -m PyInstaller --onefile --name RaymanEngine main.py
+   ```
+
+4. El ejecutable se genera en:
+   ```
+   dist\RaymanEngine.exe  (~150MB)
+   ```
+
+5. Doble click y ¡a jugar!
+
+
+COMPARACION:
+════════════════════════════════════════════════════════════════════════════
+
+| Método | Tamaño | Portabilidad | Facilidad | Tiempo |
+|--------|--------|--------------|-----------|--------|
+| Opción 1 (Bat) | - | Sí | ⭐⭐⭐⭐⭐ | <1min |
+| Opción 2 (PyInstaller) | 150MB | Sí | ⭐⭐⭐⭐ | 5-10min |
+
+
+ALTERNATIVAS SI FALLA:
+════════════════════════════════════════════════════════════════════════════
+
+**A. Usar cx_Freeze en lugar de PyInstaller**
+```powershell
+pip install cx_Freeze
+cxfreeze main.py --target-dir dist_cxfreeze
+```
+
+**B. Instalar pygame en Python embebido (avanzado)**
+
+Descarga whl pre-compilado de pygame desde:
+https://pypi.org/project/pygame/#files
+
+Y extrae en: python\python-3.14.0-embed-amd64\Lib\site-packages\
+
+**C. Usar Nuitka (compilador Python)**
+```powershell
+pip install nuitka
+python -m nuitka --onefile main.py
+```
+
+
+RECOMENDACION FINAL:
+════════════════════════════════════════════════════════════════════════════
+
+👉 Para jugar AHORA:
+   ➜ Doble click en: dist\RaymanEngine.bat
+
+👉 Para un ejecutable VERDADERO:
+   ➜ Instala Python global (paso 1-4 Opción 2)
+
+
+PROYECTO ACTUAL:
+════════════════════════════════════════════════════════════════════════════
+
+✓ Motor 2D completo: Sí
+✓ Enemigos: Sí (SimpleEnemy)
+✓ Sistema de salud: Sí  
+✓ Colisiones: Sí
+✓ Compilable: Sí (requiere Python global)
+
+VERSION: 0.2.0 con enemigos básicos
+
+
+SOPORTE:
+════════════════════════════════════════════════════════════════════════════
+
+Si el ejecutable falla, revisa:
+  • COMPILACION.md (esta carpeta)
+  • ARREGLAR_PYTHON.md
+  • README.md
+
+
+════════════════════════════════════════════════════════════════════════════
+
+Ahora ejecuta:  dist\RaymanEngine.bat
+
+¡Que disfrutes el juego! 🎮
+
+════════════════════════════════════════════════════════════════════════════
